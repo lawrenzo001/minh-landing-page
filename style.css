@@ -1,0 +1,215 @@
+/* body {
+    cursor: none;
+} */
+
+/* .custom-cursor {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #eb5939;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    display: none;
+} */
+
+.background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background img {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -10px;
+    height: 65em;
+    overflow: hidden;
+    z-index: -1;
+   
+}
+
+/* .background header nav .logo {
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+} */
+
+.background header nav .logo img {
+    width: 50px;
+    height: 40px;
+    top: 70px;
+    margin-left: 70px;
+    transition: transform 0.3s;
+    
+}
+/* 
+.background header nav .logo img a:hover {
+    color: #fff;
+    transform: scale(1.5);
+    background-color: #eb5939;
+    transition: background-color 0.5s, transform 1s;
+} */
+
+/* .background header nav .logo:hover img {
+    transform: scale(2);
+    color: #fff;
+} */
+
+
+
+.background header nav .about {
+    float: right;
+    text-transform: uppercase;
+    font-size: 20px;
+    top: 70px;
+    right: 20px;
+    line-height: 30px;
+    text-align: right;
+    padding-right: 90px;
+    padding-top: 70px;
+
+  
+}
+
+.background header nav .about ul {
+    top: 70px;
+    right: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+
+}
+
+
+.background header nav .about ul a {
+    color: #b7ab98;
+    text-decoration: none;
+
+}
+
+
+.background header nav .about ul a:hover {
+    color: #fff;
+    transform: scale(1.5);
+    background-color: #eb5939;
+    transition: background-color 0.5s, transform 1s;
+    border-radius: 3px;
+}
+
+
+
+
+
+.background section .content {
+    position: relative;
+    align-items: center;
+    font-size: 10em;
+    margin-top: 170px;
+
+} 
+
+
+.background section .content h1 {
+    text-align: justify;
+    color: #b7ab98;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    bottom: 20px;
+    letter-spacing: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+ 
+} 
+
+
+.background section .content h2 {
+    color: #b7ab98;
+    font-size: 130px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    
+}
+
+
+.background .content .sidetext {
+    position: relative;
+    transform: rotate(-90deg);
+    float: right;
+    font-size: 20px;
+    color: #77726a;
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 50px;
+    left: 130px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+
+}
+
+.background .content .sidetext h3 {
+    padding-left: 350px;
+    top: 400px;
+    
+}
+
+.background .content .sidetext h3 a {
+    color: #77726a;
+    text-decoration: none;
+
+}
+
+
+.background .content .sidetext .on {
+    color: #fff;
+}
+
+
+.background .content .sidetext h3 a:hover{
+    color: #fff;
+    transform: scale(1.5);
+    transition: transform 1s;
+}
+
+
+
+
+
+.background aside {
+    align-items: center;
+    padding-left: 70px;
+   
+}
+
+
+.background aside ul {
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 60px;
+    bottom: 300px;
+    line-height: 70px;
+    box-sizing: content-box;
+    
+}
+
+
+.background aside ul .social li a {
+    color: #b7ab98;
+    
+}
+
+
+.background aside ul .social li a:hover {
+    color: #fff;
+    transform: scale(3);
+    transition: transform 1s;
+}
